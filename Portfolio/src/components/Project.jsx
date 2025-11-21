@@ -1,7 +1,10 @@
-import "../styles/projectCard.css"
-import "../styles/project.css"
+import "../styles/projectCard.css";
+import "../styles/project.css";
+import { useState } from "react";
 
 function Project ({screenshot, name, link, techUsed, writeUp}) {
+    const [isOpen, setIsOpen] = useState(false)
+
     return(
         <>
             <div className="profile_card">

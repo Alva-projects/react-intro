@@ -1,0 +1,24 @@
+.btn-popup {
+    width: 100px;
+    height: 60px;
+    background-color: rgb(203, 183, 242);
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.btn-popup:hover {
+    cursor: pointer;
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fonts 
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+*/
