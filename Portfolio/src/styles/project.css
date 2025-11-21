@@ -2,7 +2,7 @@
 .profile_card {
     border-radius: 25px;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
-    height: 500px;
+    height: 700px;
     width: 450px;
     transition: all 0.3s;
     overflow: hidden;
@@ -56,4 +56,19 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+}
+
+.btn-details {
+    width: 100px;
+    height: 50px;
+    background-color: rgb(208, 181, 234);
+    border-radius: 8px;
+    border-style: none;
+}
+
+.btn-details:hover {
+    cursor: pointer;
+    background-color: rgba(183, 131, 231, 0.932);
+    border-style: black;
+
 }

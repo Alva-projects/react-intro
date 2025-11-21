@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard.jsx";
+import "../styles/popup.css";
 
 function PopUp() {
   const [visible, setVisible] = useState(false)

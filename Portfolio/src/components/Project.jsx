@@ -14,6 +14,7 @@ function Project ({screenshot, name, link, techUsed, writeUp}) {
                     <a href={link} className="link" target="_blank" >Git Hub repo</a>
                     <p className="tech">{techUsed}</p>
                     <p className="description">{writeUp}</p>
+                    <button className="btn-details">Show details</button>
                 </div>
             </div>
         </>

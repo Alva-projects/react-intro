@@ -4,10 +4,15 @@
     background-color: rgb(203, 183, 242);
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
+    outline-color: none;
+    border-style: none;
 }
 
 .btn-popup:hover {
     cursor: pointer;
+    border-style: black;
+    background-color: rgba(183, 131, 231, 0.932);
+
 }
 .btn-container {
     display: flex;
