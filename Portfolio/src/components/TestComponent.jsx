@@ -1,6 +1,6 @@
-import React from "react";
 
 function TestComponent({title, info, onClick}) {
+    
     return(
         <div className="popup-window">
             <h1 className="title">{title}</h1>

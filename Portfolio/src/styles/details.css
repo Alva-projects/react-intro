@@ -1,0 +1,11 @@
+.popup-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    z-index: 15;
+    position: absolute;
+    inset: 0;
+}
+

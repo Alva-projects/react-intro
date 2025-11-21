@@ -1,6 +1,8 @@
 import "../styles/projectCard.css";
 import "../styles/project.css";
 import { useState } from "react";
+import DetailsComponent from "./DetailsComponent";
+import ProjectCard from "./ProjectCard";
 
 function Project ({screenshot, name, link, techUsed, writeUp}) {
     const [isOpen, setIsOpen] = useState(false)
@@ -14,11 +16,23 @@ function Project ({screenshot, name, link, techUsed, writeUp}) {
                     <a href={link} className="link" target="_blank" >Git Hub repo</a>
                     <p className="tech">{techUsed}</p>
                     <p className="description">{writeUp}</p>
-                    <button className="btn-details">Show details</button>
+                    <button className="btn-details" onClick={() => {setIsOpen(true)}}>Open details</button>
                 </div>
             </div>
+            {isOpen && (
+                <DetailsComponent
+                    Project = {{
+                        screenshot,
+                        name,
+                        link,
+                        techUsed,
+                        writeUp
+                    }}
+                    onClose={() => setIsOpen(false)} />
+                    )}
         </>
     )
+    
 }
 
 export default Project;
