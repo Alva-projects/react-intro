@@ -1,3 +1,6 @@
+import "../styles/projectCard.css"
+import "../styles/project.css"
+
 function Project ({screenshot, name, link, techUsed, writeUp}) {
     return(
         <>
